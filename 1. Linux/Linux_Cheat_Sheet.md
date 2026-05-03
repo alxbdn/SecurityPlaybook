@@ -238,7 +238,8 @@ Services are background processes (daemons). Modern Linux uses **systemd** (`sys
 
 ## 18. Linux Troubleshooting
 - **System Health:** `top`, `htop`, `uptime`, `free -h` (memory), `df -h` (disk space), `du -sh *`
-- **Logs:** - `/var/log/syslog` or `/var/log/messages` (General system logs)
+- **Logs:**
+  - `/var/log/syslog` or `/var/log/messages` (General system logs)
   - `/var/log/auth.log` (Login/sudo attempts)
   - `/var/log/dmesg` (Kernel/hardware logs)
 - **Debugging Scripts:** `bash -x script.sh`
