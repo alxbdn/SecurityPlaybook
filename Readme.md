@@ -7,10 +7,10 @@ I created this repository to act as my "Second Brain" while I study for a career
 By keeping this public, I hope it forces me to write clean, organized documentation and helps anyone else on a similar learning journey.
 
 ## 🗺️ Table of Contents
-* [1. Linux](#️-table-of-contentslink)
-* [2. Windows](#2-network-scanning-nmap)
-* [3. Defensive Tools](#3-linux-privilege-escalation)
-* [4. Network](#4-blue-team--siem-queries)
+* [1. Linux](Linux)
+* [2. Windows](#Windows)
+* [3. Defensive Tools](#Defensive Tools)
+* [4. Network](#Network)
 
 *(Note: I am actively building this, so some sections are under construction!)*
 
