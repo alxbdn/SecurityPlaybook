@@ -32,7 +32,7 @@
 | `vlan` | int | Outer VLAN for connection |
 | `inner_vlan` | int | Inner VLAN for connection |
 
-#### `conn_state` | A summarized state for each connection
+### `conn_state` | A summarized state for each connection
 | State | Description |
 | :--- | :--- |
 | **S0** | Connection attempt seen, no reply |
@@ -49,7 +49,7 @@
 | **SHR** | Resp sent SYN-ACK then FIN; no Orig SYN |
 | **OTH** | No SYN, not closed. Midstream traffic. Partial connection. |
 
-#### `history` | Orig UPPERCASE, Resp lowercase
+### `history` | Orig UPPERCASE, Resp lowercase
 | Flag | Description |
 | :--- | :--- |
 | **S** | A SYN without the ACK bit set |
@@ -428,7 +428,7 @@
 | `sni_matches_cert` | bool | Set to true if the hostname sent in the SNI matches the certificate |
 | `validation_status`| string | Certificate validation result for this connection |
 
-#### `ssl_history` Reference
+### `ssl_history` Reference
 | Flag | Description | Flag | Description |
 | :--- | :--- | :--- | :--- |
 | `^` | direction flipped | `C` | certificate_status |
@@ -607,10 +607,8 @@
 | **remote_location** | record geo_location | If GeoIP support is built in, notices have geographic information attached to them |
 | **dropped** | bool | Indicate if $src IP address was dropped and denied network access |
 
----
-
 ### SURICATA
-> Corelight's Suricata® and Zeek logs link alerts and evidence to accelerate incident response
+Corelight's Suricata® and Zeek logs link alerts and evidence to accelerate incident response
 
 ### `suricata_corelight.log`
 
