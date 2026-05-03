@@ -9,7 +9,7 @@ By keeping this public, I hope it forces me to write clean, organized documentat
 ## 🗺️ Table of Contents
 * [1. Linux](Linux)
 * [2. Windows](#Windows)
-* [3. Defensive Tools](#Defensive Tools)
+* [3. Defensive Tools](#DefensiveTools)
 * [4. Network](#Network)
 
 *(Note: I am actively building this, so some sections are under construction!)*
