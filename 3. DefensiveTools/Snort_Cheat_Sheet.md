@@ -57,20 +57,21 @@ Based on the TryHackMe Snort Room.
 
 ## Snort Rule Breakdown
 
-|Logical Part,Category,Component,Example,Description
-RULE HEADER,,Action,alert,"Action, this option tells Snort what to do in a rule match"
-,,Protocol,tcp,"Protocol to be analysed. Supported protocols: TCP, UDP, ICMP, IP."
-,,Source IP,$EXTERNAL_NET,Source IP addresses.
-,,Source Port,any,Source ports.
-,,Direction,->,Direction operator. Identify the orientation of traffic.
-,,Destination IP,$HOME_NET,Destination IP addresses.
-,,Destination Port,$HTTP_PORTS,Destination ports.
-RULE OPTIONS,GENERAL RULE OPTIONS,Message,msg,Display message for rule match.
-,,Reference,reference,Provide additional information or reference for the rule.
-,,Rule id,sid,Unique rule number.
-,,Revision info,rev,Revision information for the rule.
-,NON-PAYLOAD RULE OPTIONS,Flow,flow,TCP stream direction.
-,PAYLOAD DETECTION RULE OPTIONS,Nocase,nocase,Disable case sensitivity to enhance the content match.
-,,Content,content,Filter the payload data and look for an exact match.
-,,Fast-pattern,fast-pattern,"Prioritise the content search to speed up the payload search. This option is required when using multiple ""content"" options."
-,POST-DETECTION RULE OPTIONS,Session,session,Extract user data from TCP sessions.
+| Logical Part | Category | Component | Example | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **RULE HEADER** | | Action | `alert` | Action, this option tells Snort what to do in a rule match |
+| | | Protocol | `tcp` | Protocol to be analysed. Supported protocols: TCP, UDP, ICMP, IP. |
+| | | Source IP | `$EXTERNAL_NET` | Source IP addresses. |
+| | | Source Port | `any` | Source ports. |
+| | | Direction | `->` | Direction operator. Identify the orientation of traffic. |
+| | | Destination IP | `$HOME_NET` | Destination IP addresses. |
+| | | Destination Port | `$HTTP_PORTS` | Destination ports. |
+| **RULE OPTIONS** | **GENERAL RULE OPTIONS** | Message | `msg` | Display message for rule match. |
+| | | Reference | `reference` | Provide additional information or reference for the rule. |
+| | | Rule id | `sid` | Unique rule number. |
+| | | Revision info | `rev` | Revision information for the rule. |
+| | **NON-PAYLOAD RULE OPTIONS** | Flow | `flow` | TCP stream direction. |
+| | **PAYLOAD DETECTION RULE OPTIONS** | Nocase | `nocase` | Disable case sensitivity to enhance the content match. |
+| | | Content | `content` | Filter the payload data and look for an exact match. |
+| | | Fast-pattern | `fast-pattern` | Prioritise the content search to speed up the payload search. This option is required when using multiple "content" options. |
+| | **POST-DETECTION RULE OPTIONS** | Session | `session` | Extract user data from TCP sessions. |
