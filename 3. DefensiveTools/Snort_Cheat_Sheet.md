@@ -53,7 +53,10 @@ Based on the TryHackMe Snort Room.
 | Alert mode 3 (File output 2) | `snort -c /etc/snort/snort.conf -v -A full` |
 | Use rules without configuration file | `snort -c /etc/snort/rules/local.rules -v -A console` |
 
----
+### Example Rule
+```
+alert tcp $EXTERNAL_NET any -> $HOME_NET $HTTP_PORTS ( msg:"Directory Traversal Attempt!"; flow:established; nocase; content:"HTTP"; fast_pattern; content:"| 2E 2E 2F|"; content:"/.."; session:all; reference:CVE,XXX; sid:100001; rev:1;)
+```
 
 ## Snort Rule Breakdown
 
