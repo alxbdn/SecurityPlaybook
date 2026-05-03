@@ -7,7 +7,7 @@ I created this repository to act as my "Second Brain" while I study for a career
 By keeping this public, I hope it forces me to write clean, organized documentation and helps anyone else on a similar learning journey.
 
 ## 🗺️ Table of Contents
-* [1. Linux](Linux)
+* [1. Linux](#Linux)
 * [2. Windows](#Windows)
 * [3. Defensive Tools](#DefensiveTools)
 * [4. Network](#Network)
