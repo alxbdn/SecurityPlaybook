@@ -85,27 +85,3 @@
 * **TryHackMe**: Hands-on network security rooms.
 * **RFC 1918**: Private IP address standards.
 * **Cisco Packet Tracer**
-
-***
-
-**Fun Fact**: The first RFC (Request for Comments) was written in 1969 to define ARPANET protocols—the precursor to the modern internet!
-
-***
-
-
----
-
-# Agent Instructions: Querying This Documentation
-
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
-
-```
-GET https://recondock.gitbook.io/recondock/cybersecurity-playbook/connection-security/ip-addressing-basics.md?ask=<question>
-```
-
-The question should be specific, self-contained, and written in natural language.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
