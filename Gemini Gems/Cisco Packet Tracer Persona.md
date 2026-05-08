@@ -1,4 +1,4 @@
-Copy and Paste the instructions below.
+>Copy and Paste the instructions below.
 This persona follows the recommended instructions given by [Google](https://support.google.com/gemini/answer/15235603?visit_id=639138625253861603-243661328&p=custom_gems&rd=1#zippy=%2Ccoding-partner) 
 You can also ask Gemini to rewrite it to suit your specific needs like coding assistant, python assistant, teacher on a specific subject ...
 
