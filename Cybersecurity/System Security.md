@@ -1,4 +1,3 @@
-
 What Is System Security?
 
 **System Security** is the discipline of protecting entire systems — hardware, software, operating systems, networks, and infrastructure — from unauthorized access, malicious attacks, misconfigurations, failures, and data breaches.
@@ -7,7 +6,7 @@ It ensures **Confidentiality, Integrity, and Availability (CIA)** while maintain
 
 System security must defend against both external and internal threats, and today it must also adapt to evolving environments like **cloud computing**, **hybrid networks**, and **remote workforce models**.
 
-**1. Overview of System Security**
+### **1. Overview of System Security**
 
 **System Security** focuses on protecting entire systems, including **hardware, software, networks, and infrastructure components**, against unauthorized access, breaches, and cyber threats. This includes **ensuring confidentiality, integrity, and availability (CIA)** of the system while maintaining resilience against attacks.
 
@@ -20,7 +19,7 @@ System security addresses risks at multiple layers:
 
 ***
 
-## **2. Key Topics in System Security**
+### **2. Key Topics in System Security**
 
 * **Access Control Mechanisms**: Implement RBAC, ABAC (Attribute-Based Access Control), and enforce the Principle of Least Privilege (PoLP).
 * **OS Hardening**: Secure configurations, remove unused services, enforce updates.
@@ -39,7 +38,7 @@ System security addresses risks at multiple layers:
 
 ***
 
-## **3. Principles of System Security**
+### **3. Principles of System Security**
 
 1. **Defense in Depth:** Implement multiple layers of security controls.
 2. **Least Privilege:** Restrict user and system access to the minimum necessary.
@@ -59,7 +58,7 @@ System security addresses risks at multiple layers:
 
 ***
 
-## **4. Common Threats to System Security**
+### **4. Common Threats to System Security**
 
 * **Malware Attacks:** Viruses, worms, ransomware, and spyware compromising systems.
 * **Unauthorized Access:** Weak authentication measures enabling unauthorized logins.
@@ -83,7 +82,7 @@ System security addresses risks at multiple layers:
 
 ***
 
-## **5. Best Practices for System Security**
+### **5. Best Practices for System Security**
 
 ✅ **Harden All Systems**: Disable unused ports, services, and accounts.\
 ✅ **Update and Patch**: Implement an automated patching process.\
@@ -105,7 +104,7 @@ Maintain an SSP using NIST SP 800-18 Rev 1 to outline system boundaries, control
 
 ***
 
-## **6. Tools and Technologies for System Security**
+### **6. Tools and Technologies for System Security**
 
 | Category                            | Tools                                                                                                |
 | ----------------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -134,7 +133,7 @@ Maintain an SSP using NIST SP 800-18 Rev 1 to outline system boundaries, control
 
 ***
 
-## **7. Case Study: System Security Incident**
+### **7. Case Study: System Security Incident**
 
 **Incident:** **WannaCry Ransomware Attack (2017)**
 
@@ -157,7 +156,7 @@ Maintain an SSP using NIST SP 800-18 Rev 1 to outline system boundaries, control
 
 ***
 
-## **8. System Security Checklist**
+### **8. System Security Checklist**
 
 ✅ **System Hardening:** Follow CIS Benchmarks and security baselines.\
 ✅ **Patch Management:** Regularly update OS and software.\
@@ -184,7 +183,7 @@ Maintain an SSP using NIST SP 800-18 Rev 1 to outline system boundaries, control
 
 ***
 
-## **9. Future Trends in System Security**
+### **9. Future Trends in System Security**
 
 * **Zero Trust Architecture:** Enforce verification at every stage of system interactions.
 * **AI and Machine Learning in Security:** Improve anomaly detection and predictive analysis.
@@ -204,7 +203,7 @@ Maintain an SSP using NIST SP 800-18 Rev 1 to outline system boundaries, control
 
 ***
 
-## **10. Reflection Questions for System Security**
+### **10. Reflection Questions for System Security**
 
 1. Is your system designed to assume breach (Zero Trust)?
 2. How fast can you detect, isolate, and recover from an incident?
@@ -218,7 +217,7 @@ Maintain an SSP using NIST SP 800-18 Rev 1 to outline system boundaries, control
 
 ***
 
-## **11. Recommended Actions for Playbook**
+### **11. Recommended Actions for Playbook**
 
 * Include **system hardening checklists** based on CIS Benchmarks.
 * Document **patch management processes and schedules**.
@@ -236,7 +235,7 @@ Maintain an SSP using NIST SP 800-18 Rev 1 to outline system boundaries, control
 
 ***
 
-## **12. Key Takeaways**
+### **12. Key Takeaways**
 
 * **Defense in Depth:** Layered security measures are critical for system resilience.
 * **Patch Regularly:** Keep systems up to date to mitigate vulnerabilities.
@@ -246,7 +245,7 @@ Maintain an SSP using NIST SP 800-18 Rev 1 to outline system boundaries, control
 
 ***
 
-## 🚀 **Action Plan Moving Forward:**
+### 🚀 **Action Plan Moving Forward:**
 
 1. Implement **CIS Benchmarks for system hardening**.
 2. Regularly conduct **vulnerability scans and audits**.
