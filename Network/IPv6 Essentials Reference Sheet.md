@@ -132,7 +132,7 @@
 
 ## IPv6 HexSpeak
 
-`BABE` : User's VLANs
-`CAFE` : Transit Links
-`BEEF` : Servers
-`DEAD` : Deprecated interfaces
+- `BABE` : User's VLANs
+- `CAFE` : Transit Links
+- `BEEF` : Servers
+- `DEAD` : Deprecated interfaces
