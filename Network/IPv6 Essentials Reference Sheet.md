@@ -129,3 +129,10 @@
 * `icmpv6.type == 135`: all neighbor solicitations
 * `icmpv6.type == 136`: all neighbor advertisements
 * `icmpv6.type == 137`: all redirect messages
+
+## IPv6 HexSpeak
+
+`BABE` : User's VLANs
+`CAFE` : Transit Links
+`BEEF` : Servers
+`DEAD` : Deprecated interfaces
